@@ -1,7 +1,7 @@
 # ansiblepractice
 
 # Ansible installation commands
-> sudo apt-add-repository ppa:ansible/ansible
+> sudo apt-add-repository ppa:ansible/ansible <br>
 > sudo apt update
 > sudo apt install ansible
 
