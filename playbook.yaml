@@ -1,0 +1,14 @@
+---
+- name: Install Maven on servers
+  hosts: servers
+  become: yes
+  tasks:
+    - name: Update and upgrade apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+
+    - name: Install Maven
+      apt:
+        name: maven
+        state: present
